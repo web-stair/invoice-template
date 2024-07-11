@@ -1,0 +1,33 @@
+@font-face{
+	font-family:'cairo';
+	src: url('../webfonts/cairo.eot?#iefix');
+	src: local('القاهرة'), local('cairo'), url('../webfonts/cairo.woff') format('woff');
+}
+
+body {
+	font-family: 'cairo';
+}
+
+
+pre {
+  text-align: left !important;
+  direction: ltr !important;
+  font-size: 20px;
+  border: 2px solid #0b2532;
+  border-left: 12px solid #0b2532;
+  border-radius: 5px;
+  padding: 24px 14px;
+  line-height: 24px;
+  background-image: linear-gradient(180deg, #0b2532 50%, #0d3042 50%);
+  background-size: 100% 48px;
+  background-position: 0 24px;
+  color: #0dcaf0;
+}
+
+[data-bs-toggle="collapse"][aria-expanded="false"] .fa-minus:before {
+    content: "\f067";
+}
+
+[data-bs-toggle="collapse"][aria-expanded="true"] .fa-minus:before {
+    content: "\f068";
+}
